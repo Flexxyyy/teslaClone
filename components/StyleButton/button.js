@@ -16,8 +16,7 @@ const Button = (props) => {
     return (
         <View style={buttonStyle.container}>
             <Pressable style={[buttonStyle.button, { backgroundColor: backgroundColor }]}
-                onPress={() => onPress()}
-            >
+                onPress={() => onPress()}>
                 <Text style={[buttonStyle.text, { color: fontColor }]}>{content}</Text>
             </Pressable>
         </View>
