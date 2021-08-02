@@ -1,2 +1,2 @@
 # teslaClone
-Tesla Clone using React Native
+Tesla Clone using React Native (Expo CLI)
